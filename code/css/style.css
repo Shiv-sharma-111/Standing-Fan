@@ -26,3 +26,36 @@ body{
   border-radius: 5px;
   background-color: #ddd;
 }
+.lower-housing
+{
+  position: relative;
+  height: 10px;
+  width: 50px;
+  top: 99%;
+  left: 15px;
+  border: 1px solid #333;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+.neck
+{
+  position: relative;
+  height: 200px;
+  width: 40px;
+  top: 77px;
+  left: 20px;
+  border: 1px solid #333;
+  border-top: 1px solid #ddd;
+  background-color: #ddd;
+}
+.level
+{
+  position: relative;
+  top: 53%;
+  margin: 1px 10px;
+  border: 1px solid #333;
+  border-radius: 50%;
+  color: white;
+  cursor: hand;
+
+}
