@@ -57,5 +57,53 @@ body{
   border-radius: 50%;
   color: white;
   cursor: hand;
-
+}
+.blade-container
+{
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  top: 20px;
+  left: 20px;
+  border: 1px solid #333;
+  border-radius: 50%;
+  background-color: #ccc;
+  -webkit-animation: rotate infinite linear;
+  -moz-animation: rotate infinite linear;
+  -o-animation:rotate infinite linear;
+}
+.blade
+{
+  position: relative;
+  height: 100px;
+  width: 50px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  background-color: #eee;
+}
+.blade-one
+{
+  bottom: 110px;
+  right: 4px;
+}
+.blade-two
+{
+  bottom: 85px;
+  left:65px;
+  transform: rotate(120deg);
+}
+.blade-three
+{
+  bottom: 185px;
+  left:75px;
+  transform: rotate(-120deg);
+}
+.blade-support
+{
+  position: relative;
+  height: 27px;
+  width:25px;
+  top: 98px;
+  left: 12px;
+  background-color: #eee;
 }
