@@ -121,3 +121,96 @@ body{
   border-bottom-right-radius: 4px;
   background-color: #ddd;
 }
+.wire
+{
+  position: relative;
+  height: 300px;
+  width: 1px;
+  left: 150px;
+  background-color: #333;
+  display: inline-block;
+}
+.wire-two
+{
+  left: 146.5px;
+  transform: rotate(36deg);
+}
+.wire-three
+{
+  left: 141.5px;
+  transform: rotate(72deg);
+}
+.wire-four
+{
+  left: 137.5px;
+  transform: rotate(108deg);
+}
+.wire-five
+{
+  left: 134.5px;
+  transform: rotate(144deg);
+}
+.wire-six
+{
+  left: 130.5px;
+  transform: rotate(18deg);
+}
+.wire-seven
+{
+  left: 124.5px;
+  transform: rotate(54deg);
+}
+.wire-eight
+{
+  left: 120.5px;
+  transform: rotate(90deg);
+}
+.wire-nine
+{
+  left: 116.5px;
+  transform: rotate(126deg);
+}
+.wire-ten
+{
+  left: 112.5px;
+  transform: rotate(162deg);
+}
+p
+{
+  letter-spacing: 2px;
+}
+.cover
+{
+  position: relative;
+  height: 50px;
+  width: 50px;
+  bottom: 180px;
+  left: 125px;
+  border: 1px solid #333;
+  border-radius: 50%;
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wire-cover
+{
+  position: relative;
+  height: 220px;
+  width: 220px;
+  bottom: 315px;
+  left: 38px;
+  border-radius: 50%;
+  border: 2px solid #444;
+}
+@-webkit-keyframes rotate
+{
+  from
+  {
+    transform: rotate(0deg);
+  }
+  to
+  {
+    transform: rotate(360deg);
+  }
+}

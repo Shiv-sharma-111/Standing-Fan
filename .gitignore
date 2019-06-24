@@ -1,3 +1,4 @@
+#for ignoring unneccesary files
 .pdf
 .py
 .cpp
